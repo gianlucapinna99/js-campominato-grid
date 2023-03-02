@@ -92,7 +92,7 @@ img{
 /* MAIN */
 
 .board{
-    height: 80%;
+    width: 60%;
     aspect-ratio: 1;
     border: solid 1px black;
     display: flex;
@@ -100,10 +100,22 @@ img{
 }
 
 
-.cell{
+.cell-1{
     border: solid black 1px;
     width: calc(100%/10);
     height: calc(100%/10);
+}
+
+.cell-2{
+    border: solid black 1px;
+    width: calc(100%/9);
+    height: calc(100%/9);
+}
+
+.cell-3{
+    border: solid black 1px;
+    width: calc(100%/7);
+    height: calc(100%/7);
 }
 
 
